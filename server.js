@@ -42,7 +42,7 @@ app.set('socketio', io);
 app.set('server', server);
 app.use(express.static(`${__dirname}/public`));
 
-server.listen(3333, (err) => {
+server.listen(80, (err) => {
   if (err) {
     console.log(err);
   } else {
